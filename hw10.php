@@ -24,6 +24,25 @@
     $b=3;
     $c=10;
     $d=$a+$b+$c;
-    echo "Zbir brojeva $a, $b i $c je $d."
+    echo "Zbir brojeva $a, $b i $c je $d.";
+    echo "<br>";
+    $random_dan=mt_rand(0,6);
+    if ($random_dan==0) {
+        echo "Danas je ponedeljak!";
+    } elseif ($random_dan==1) {
+        echo "Danas je utorak!";
+    } elseif ($random_dan==2) {
+        echo "Danas je sreda!";
+    } elseif ($random_dan==3) {
+        echo "Danas je četvrtak!";
+    }
+    elseif ($random_dan==4) {
+        echo "Danas je petak!";
+    }
+    elseif ($random_dan==5) {
+        echo "Danas je subota!";
+    } elseif ($random_dan==6) {
+        echo "Danas je nedelja!";
+    }
     ?>
 </html>
