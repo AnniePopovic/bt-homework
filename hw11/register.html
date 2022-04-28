@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Forma</title>
+</head>
+<body>
+    <form action="register.php" method="GET" target="prozorčić">
+        <label for="ime">Ime</label>
+        <input type="text" id="ime" name="ime"> <br>
+        <label for="prezime">Prezime</label>
+        <input type="text" id="prezime" name="prezime"> <br>
+        <label>Pol:</label>
+        <label for="muški">Muški</label>
+        <input type="radio" id="muški" name="pol" value="Poštovani">
+        <label for="ženski">Ženski</label>
+        <input type="radio" id="ženski" name="pol" value="Poštovana"> <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"> <br>
+        <label for="lozinka">Lozinka:</label>
+        <input type="password" id="lozinka" name="lozinka"> <br>
+        <label>Odabir kurseva:</label>
+        <label for="java">Java</label>
+        <input type="checkbox" id="java" name="kursevi[]" value="Java">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="css" name="kursevi[]" value="CSS">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="html" name="kursevi[]" value="HTML"> <br>
+        <label for="broj">Broj telefona:</label>
+        <input type="number" id="broj" name="broj">
+        <button type="submit" name="submit">Pošalji</button>
+    </form>
+    <iframe name="prozorčić"></iframe>
+</body>
+</html>
