@@ -100,6 +100,12 @@ footer {
         height:50%;
         transform: translateY(40%);
     }
-
+   
+    footer ul {
+        width:45% !important;
+    }
+    #login, #register {
+        width: 25% !important;
+    }
 }
 

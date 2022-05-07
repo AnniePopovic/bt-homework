@@ -59,6 +59,13 @@
     width:90%;
   }
   #top {
+    bottom:5em !important;
     width:20% !important;
   }
+  footer ul {
+    width:45% !important;
+}
+#login, #register {
+    width: 20% !important;
+}
 }

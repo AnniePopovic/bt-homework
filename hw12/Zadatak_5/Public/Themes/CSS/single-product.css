@@ -145,6 +145,7 @@
       }
     
       .container {
+          width:100%;
         height:42em;
         margin-top:1em;
     }
@@ -179,6 +180,13 @@
       font-size: small;
     }
     #top {
+        bottom:5em !important;
         width:20% !important;
+      }
+      footer ul {
+        width:45% !important;
+    }
+    #login, #register {
+        width: 20% !important;
     }
 }

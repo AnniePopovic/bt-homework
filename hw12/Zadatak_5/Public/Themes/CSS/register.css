@@ -111,5 +111,10 @@ footer {
         height:67%;
         transform: translateY(25%);
     }
-
+    footer ul {
+        width:45% !important;
+    }
+    #login, #register {
+        width: 20% !important;
+    }
 }

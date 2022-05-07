@@ -196,8 +196,16 @@ input, textarea {
     margin-left:17%;
     height:2em;
 }
+
 #top {
+    bottom:5em !important;
     width:25% !important;
+  }
+  footer ul {
+    width:45% !important;
+}
+#login, #register {
+    width: 20% !important;
 }
 }
 
