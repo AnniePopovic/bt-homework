@@ -1,0 +1,203 @@
+* {
+    font-family: "Noto Serif", serif;
+  }
+
+  body {
+    display: inline-block;
+    width: 100vw;
+    height: fit-content;
+    margin:0;
+  }
+  .container {
+      margin-top:20px;
+      height:80em;
+      display:flex;
+      flex-direction: column;
+  }
+  .kontakt {
+      height:25%;
+      background-image: linear-gradient(to right, rgba(30, 100, 39, 0.45), rgba(209, 0, 0, 0.45)), url(../Image/ljudi-u-marketu.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 0 20%;
+      color:white;
+      text-align: center;
+  }
+  .tekst {
+    transform:translateY(70%);
+    text-shadow: 3px 3px 2px black;
+  }
+  .tri-polja {
+      height:30%;
+      display:flex;
+      flex-direction: row;
+      background-color: rgb(255, 255, 255);
+      padding: 0 10%;
+      gap:10%;
+      justify-content: space-around;
+      align-items: center;
+  }
+  .polje1, .polje2, .polje3 {
+      height:85%;
+      border:1px solid rgb(103, 103, 103);
+      color:rgb(103, 103, 103);
+      border-radius: 20px;
+      text-align: center;
+      padding: 0 2%;
+      margin:10% 0 ;
+  }
+  .fa-bell-concierge, .fa-cart-shopping, .fa-briefcase {
+      padding-top: 10%;
+      font-size: 3em;
+  }
+  .dugme {
+      width:60%;
+      height:10%;
+      border-radius: 20px;
+      color:white;
+      background-image: white;
+      border:1px solid rgb(103, 103, 103);
+      font-weight: 700;
+  }
+  .dugme a {
+      text-decoration: none;
+      color:black;
+  }
+  .dugme a:hover {
+      color:rgb(209, 0, 0);
+  }
+
+  .još {
+      height:45%;
+      background-color: rgb(184, 208, 187);
+  }
+  #ne {
+      float:left;
+      font-size: 4em;
+      width:50%;
+      padding:0.5em;
+      box-sizing: border-box;
+  }
+  form {
+      float:right;
+      width:50%;
+      transform: translateY(10%);
+      text-align: center;
+  }
+  label {
+      display: inline-block;
+      width:20%;
+      text-align: right;
+      vertical-align: top;
+  }
+  input, textarea {
+     width:50%;
+     padding:1em;
+     border-radius: 5px;
+  }
+  .odeljak {
+      margin:3% 0;
+  }
+  #pošalji {
+      width:50%;
+      background-color:  rgb(184, 208, 187);
+      border: 1px solid black;
+      margin-left:20%;
+      border-radius: 20px;
+      height:3em;
+  }
+  @media only screen and (max-width:992px) {
+    nav ul {
+        width:50% !important;
+    }
+    .ikonice {
+        width:20% !important;
+    }
+    .tri-polja {
+        padding: 0 3%;
+        gap:3%;
+    }
+    .polje1, .polje2, .polje3 {
+        margin:5% 0 ;
+    }
+    
+    #ne {
+        width:40%;
+        font-size: 2.5em;
+    }
+    form {
+        width:60%;
+    }
+}
+@media only screen and (max-width:576px) {
+    nav ul {
+        display:none !important;
+    }
+    #slika-bootcamp {
+        width:50% !important;
+    }
+    .ikonice {
+        width:30% !important;
+    }
+    .hamburger {
+        position: absolute;
+        bottom: 0.4em;
+        right: 0.5em;
+        display: block !important;
+        font-size: small;
+        color: rgb(209, 0, 0);
+        padding: 0.2em;
+        border: 1px solid rgb(209, 0, 0);
+      }
+   .container {
+       height:100em;
+   }
+   .kontakt {
+    height:15%;
+   }
+.tri-polja {
+    height:60%;
+    flex-direction: column;
+    gap:5%;
+    margin:5% 0;
+}
+.polje1, .polje2, .polje3 {
+    width:60%;
+    margin:0 0;
+}
+
+.polje1 p, .polje2 p, .polje3 p {
+    font-size: small;
+}
+.još {
+    height:25%;
+}
+#ne {
+    font-size: 1em;
+    width:30%;
+}
+form {
+    width:70%;
+    transform: translateY(5%);
+}
+label {
+    width:17%;
+    font-size: small;
+}
+input, textarea {
+   width:60%;
+   padding:0.5em;
+   font-size: small;
+}
+.odeljak {
+    margin:1% 0;
+}
+#pošalji {
+    margin-left:17%;
+    height:2em;
+}
+#top {
+    width:25% !important;
+}
+}
+

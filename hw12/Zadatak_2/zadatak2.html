@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak 2</title>
+    <style>
+        label {
+            display: inline-block;
+            text-align: right;
+            width:100px;
+        }
+        #dugme {
+            margin-left: 104px;
+        }
+    </style>
+</head>
+<body>
+    <form action="zadatak2.php" method="GET" target="prozorčić">
+        <div>
+            <label for="šz">Širina zida:</label>
+            <input type="number" id="šz" name="šz"> cm
+        </div>
+        <div>
+            <label for="vz">Visina zida:</label>
+            <input type="number" id="vz" name="vz"> cm
+        </div>
+        <div>
+            <label for="šp">Širina pločica:</label>
+            <input type="number" id="šp" name="šp"> cm
+        </div>
+        <div>
+            <label for="vp">Visina pločica:</label>
+            <input type="number" id="vp" name="vp"> cm
+        </div>
+        <div id="dugme">
+            <button type="submit">Izračunaj broj pločica</button>
+        </div>
+    </form>
+    <p>Broj pločica potreban da se prekrije ceo zid:</p>
+    <iframe name="prozorčić"></iframe>
+</body>
+</html>

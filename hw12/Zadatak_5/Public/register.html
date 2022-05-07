@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="Themes/CSS/register.css">
+    <link rel="stylesheet" href="Themes/CSS/header-and-footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/7f7cb6b174.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+          <img src="Themes/Image/foodshop.jpg" alt="ime shopa" id="slika-bootcamp">
+         <ul>
+           <li><a href="index.html" target="_blank">HOME</a></li>
+           <li><a href="products.html" target="_blank">PRODUCTS</a></li>
+           <li><a href="register.html" target="_blank">REGISTER</a></li>
+           <li><a href="contact-us.html" target="_blank">CONTACT US</a></li>
+           <li><a href="about-us.html" target="_blank">ABOUT US</a></li>
+         </ul>
+         <div class="ikonice">
+           <a href="#"><i class="fa-brands fa-facebook"></i></a>
+           <a href="#"><i class="fa-brands fa-instagram"></i></a>
+           <a href="#"><i class="fa-brands fa-viber"></i></a>
+           <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+         </div>
+        </nav>
+       <button class="hamburger"><i class="fa fa-bars"></i></button>
+    </header>
+    <div class="container">
+    <form>
+        <h3>Registrovanje</h3>
+        <div class="odeljak">
+            <label for="ime_i_prezime">Ime i prezime:</label>
+            <input type="text" id="ime_i_prezime" name="ime_i_prezime" placeholder="Upiši ime i prezime">
+        </div>
+        <div class="odeljak">
+            <label for="user">Username</label>
+            <input type="text" placeholder="Upiši korisničko ime" id="user" name="user" maxlength="50">
+        </div>
+        <div class="odeljak">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="itbootcampfoodshop@gmail.com">
+        </div>
+        <div class="odeljak">
+            <label for="password">Lozinka</label>
+            <input type="password" placeholder="Upiši lozinku" id="password" name="password">
+        </div>
+        <div class="odeljak">
+            <label for="datum">Datum rođenja:</label>
+            <input type="date" id="datum" name="datum">
+        </div>
+        <button id="dugme">Prijava</button>
+        <div class="social-net">
+            <p>Ili se prijavi preko društvenih mreža:</p>
+            <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+
+    </form>
+    
+    </div>
+    <footer>
+       <ul>
+         <li><a href="https://www.php.net/" target="_blank"><i class="fa-solid fa-user-secret"></i>Php Net</a></li>
+         <li><a href="https://www.w3schools.com/" target="_blank"><i class="fa-solid fa-handshake"></i>W3 Schools</a></li>
+         <li><a href="https://www.idea.rs/" target="_blank"><i class="fa-solid fa-sitemap"></i>Idea</a></li>
+         <li><i class="fa-solid fa-trademark" target="_blank"></i>Copyright &copy; - Aleksandra Popović</li>
+       </ul>
+       <button id="top"><a href="#">Back to Top</a></button>
+    </footer>
+</body>
+</html>
