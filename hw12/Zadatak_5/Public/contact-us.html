@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Themes/CSS/contact-us.css">
+    <link rel="stylesheet" href="Themes/CSS/header-and-footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/7f7cb6b174.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+          <img src="Themes/Image/foodshop.jpg" alt="ime shopa" id="slika-bootcamp">
+         <ul>
+           <li><a href="index.html" target="_blank">HOME</a></li>
+           <li><a href="products.html" target="_blank">PRODUCTS</a></li>
+           <li><a href="register.html" target="_blank">REGISTER</a></li>
+           <li><a href="contact-us.html" target="_blank">CONTACT US</a></li>
+           <li><a href="about-us.html" target="_blank">ABOUT US</a></li>
+         </ul>
+         <div class="ikonice">
+           <a href="#"><i class="fa-brands fa-facebook"></i></a>
+           <a href="#"><i class="fa-brands fa-instagram"></i></a>
+           <a href="#"><i class="fa-brands fa-viber"></i></a>
+           <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+         </div>
+        </nav>
+       <button class="hamburger"><i class="fa fa-bars"></i></button>
+    </header>
+    <div class="container">
+    <div class="kontakt">
+        <div class="tekst">
+            <h1>Kontaktiraj nas</h1>
+            <p>Imaš pitanje ili ti je potrebna pomoć? Mi smo tu da ti pomognemo 24/7.</p>
+        </div>
+    </div>
+    <div class="tri-polja">
+        <div class="polje1">
+            <i class="fa-solid fa-bell-concierge"></i>
+            <h3>Tehnička podrška</h3>
+            <p>Da li imaš problema sa korišćenjem sajta? Naš tim tehničke podrške je tu da ti pomogne.</p>
+            <button class="dugme"><a href="#">Pitaj pitanje</a></button>
+        </div>
+        <div class="polje2">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <h3>Informacije o proizvodima</h3>
+            <p>Ukoliko želiš da saznaš detalje o samim dobavljačima ili proizvodima, stojimo ti na raspolaganju.</p>
+            <button class="dugme"><a href="#">Pitaj pitanje</a></button>
+        </div>
+        <div class="polje3">
+            <i class="fa-solid fa-briefcase"></i>
+            <h3>Tražiš posao?</h3>
+            <p>Vrata naših prodajnih objekata su otvorena za tebe čak i ukoliko si zainteresovan da se priključiš našem timu.</p>
+            <button class="dugme"><a href="#">Pošalji CV</a></button>
+        </div>
+    </div>
+    <div class="još">
+        <h3 id="ne">Nismo obuhvatili opseg tvog pitanja? Piši nam ovde.</h3>
+        <form>
+        <div class="odeljak">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Upiši email" required>
+        </div>
+        <div class="odeljak">
+            <label for="Puno_ime">Puno ime:</label>
+            <input type="text" name="Puno_ime" id="Puno_ime" placeholder="Upiši puno ime" required>
+        </div>
+        <div class="odeljak">
+            <label for="Komentar">Komentar:</label>
+          <textarea name="Komentar" id="Komentar" cols="30" rows="10" placeholder="Upiši nam komentar"></textarea>
+        </div>
+        <a href="#"><button id="pošalji">Pošalji</button></a>
+        </form>
+
+    </div>
+
+    
+    </div>
+    <footer>
+       <ul>
+         <li><a href="https://www.php.net/" target="_blank"><i class="fa-solid fa-user-secret"></i>Php Net</a></li>
+         <li><a href="https://www.w3schools.com/" target="_blank"><i class="fa-solid fa-handshake"></i>W3 Schools</a></li>
+         <li><a href="https://www.idea.rs/" target="_blank"><i class="fa-solid fa-sitemap"></i>Idea</a></li>
+         <li><i class="fa-solid fa-trademark" target="_blank"></i>Copyright &copy; - Aleksandra Popović</li>
+       </ul>
+       <button id="login"><a href="register.html">LOG IN</a></button>
+        <button id="register"><a href="register.html">REGISTER</a></button>
+       <button id="top"><a href="#">Back to Top</a></button>
+    </footer>
+</body>
+</html>

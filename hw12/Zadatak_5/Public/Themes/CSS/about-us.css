@@ -1,0 +1,71 @@
+* {
+    font-family: "Noto Serif", serif;
+  }
+
+  body {
+    display: inline-block;
+    width: 100vw;
+    height: fit-content;
+    margin:0;
+    background-image: url(../Image/about-us-pozadina.jpg);
+    background-size: cover;
+  }
+  .container {
+      width:70%;
+      background-color: white;
+      height:65em;
+      margin: auto;
+      box-shadow: 0 0 10px black;
+      padding:3% 5%;
+      box-sizing: border-box;
+      overflow: scroll;
+  }
+  .o {
+      font-size:3em;
+      padding-top:3%;
+  }
+  @media only screen and (max-width:992px) {
+    .container {
+      font-size: small;
+    }
+    nav ul {
+        width:50% !important;
+    }
+    .ikonice {
+        width:20% !important;
+    }
+}
+@media only screen and (max-width:576px) {
+  nav ul {
+      display:none !important;
+  }
+  #slika-bootcamp {
+      width:50% !important;
+  }
+  .ikonice {
+      width:30% !important;
+  }
+  .hamburger {
+      position: absolute;
+      bottom: 0.4em;
+      right: 0.5em;
+      display: block !important;
+      font-size: small;
+      color: rgb(209, 0, 0);
+      padding: 0.2em;
+      border: 1px solid rgb(209, 0, 0);
+    }
+  .container {
+    width:90%;
+  }
+  #top {
+    bottom:5em !important;
+    width:20% !important;
+  }
+  footer ul {
+    width:45% !important;
+}
+#login, #register {
+    width: 20% !important;
+}
+}
