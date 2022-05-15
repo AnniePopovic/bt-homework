@@ -1,4 +1,6 @@
 <?php
+
+    if (isset($_GET["submit"])) {
     if ((empty($_GET["dan"])) && (empty($_GET["mesec"])) && (empty($_GET["godina"]))) {
         die("Niste uneli nijednu varijablu.");
     } else {
@@ -48,6 +50,7 @@
         $godina=$_GET["godina"];
     } else die("Uneti broj za varijablu \"Godina\" nije validan.");
 
-    echo "Upisali ste validan datum: $dan. $mesec. $godina."
+    echo "Upisali ste validan datum: $dan. $mesec. $godina.";
+}
     
 ?>
