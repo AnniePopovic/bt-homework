@@ -1,5 +1,9 @@
 <main>
 <form action="" class="mx-3" method="POST">
+<?php if ($isValidFlag==true) {?>
+  <div class="alert alert-success mb-5" role="alert">
+  <?php echo "Čestitamo, ".  ucfirst($ime) . " ". ucfirst($prezime) . ". Uspešno ste naručili proizvod " . $singleProduct['title'] . ". <br>Adresa na koju šaljemo proizvod je: $ulica, $zip $grad. Iznos za plaćanje je: " . number_format($cenasakoličinom) . " din.,<br>Hvala na kupovini!"; } ?>
+  </div>
  <div class="container d-md-flex">
       <div>
         <div class="form-group">
@@ -71,8 +75,4 @@
     </div>
  </div>
 </form>
-<?php if ($isValidFlag==true) {?>
-  <div class="alert alert-success" role="alert">
-  <?php echo "Čestitamo, ".  ucfirst($ime) . " ". ucfirst($prezime) . ". Uspešno ste naručili proizvod " . $singleProduct['title'] . ". <br>Adresa na koju šaljemo proizvod je: $ulica, $zip $grad. Iznos za plaćanje je: " . number_format($cenasakoličinom) . " din.,<br>Hvala na kupovini!"; } ?>
-  </div>
 </main>
