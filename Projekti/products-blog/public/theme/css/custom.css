@@ -1,0 +1,17 @@
+.ml {
+    margin-left:1rem;
+}
+.btn-primary:hover {
+    background-color: rgb(150, 150, 150);
+    border:1px solid black;
+    box-shadow:0 0 1px 1px black;
+}
+.right {
+    float:right;
+}
+.ml-01 {
+    margin-left:0.5rem;
+}
+.ekran {
+    min-height:100vh;
+}
