@@ -28,7 +28,7 @@ $systemErrors= [ "Morate uneti ime!",
 ];
 $isValidFlag=false;
 if(isset($_POST["naruči"])) {
-    
+
 if ((!empty(trim($_POST["ime"]))) &&
 (!empty(trim($_POST["prezime"]))) &&
 (!empty(trim($_POST["email"]))) &&
@@ -50,6 +50,7 @@ if ((!empty(trim($_POST["ime"]))) &&
     $telefon=$_POST["telefon"];
     $ulica=$_POST["ulica"];
     $zip=$_POST["zip"];
+    $komentar=$_POST["komentar"];
     $isValidFlag=true;
 } 
 }
