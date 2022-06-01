@@ -18,9 +18,9 @@ function Operacija($niz,$operater="+") {
       }
       return $množenje;
 } else if ($operater === "/") {
-    $deljenje=1;
-     foreach($niz as $element) {
-      $deljenje/=$element;
+    $deljenje=$niz[0];
+     for($i=1;$i<count($niz);$i++) {
+      $deljenje/=$niz[$i];
       }
       return $deljenje;
 } 
