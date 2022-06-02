@@ -304,7 +304,7 @@ function getPrevProduct($currentId) {
     $products=getAllProducts();
     foreach($products as $key=>$singleProduct) {
         $trenutniključ=array_search($currentId, array_column($products,"id"));
-    if ($trenutniključ>$products[0]) {
+    if ($trenutniključ>$products[0] || $trenutniključ==count($products)-1 ) {
        $prethodna=$products[$trenutniključ-1]["id"];
     } else {
        $prethodna=$products[count($products)-1]["id"];
