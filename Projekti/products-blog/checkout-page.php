@@ -14,17 +14,17 @@ if(isset($_GET["količina"])) {
 $cenasakoličinom=$količina*$singleProduct["price"];
 }
 
-$systemErrors= [ "Morate uneti ime!",
-"Morate uneti prezime!",
-"Morate uneti mejl!",
-"Mejl mora da sadrži @",
-"Upišite vrednost bez razmaka",
-"Morate upisati grad!",
-"Morate upisati broj!",
-"Neispravan broj telefona",
-"Morate upisati ulicu!",
-"Morate upisati ZIP!",
-"Niste čekirali da li se slažete sa pravilima."
+$systemErrors= [ "<span style=color:red>Morate uneti ime!</span>",
+"<span style=color:red>Morate uneti prezime!</span>",
+"<span style=color:red>Morate uneti mejl!</span>",
+"<span style=color:red>Mejl mora da sadrži @</span>",
+"<span style=color:red>Upišite vrednost bez razmaka</span>",
+"<span style=color:red>Morate upisati grad!</span>",
+"<span style=color:red>Morate upisati broj!</span>",
+"<span style=color:red>Neispravan broj telefona</span>",
+"<span style=color:red>Morate upisati ulicu!</span>",
+"<span style=color:red>Morate upisati ZIP!</span>",
+"<span style=color:red>Niste čekirali da li se slažete sa pravilima.</span>"
 ];
 $isValidFlag=false;
 if(isset($_POST["naruči"])) {
